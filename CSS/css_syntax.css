@@ -1,0 +1,60 @@
+body
+{
+    background-color: aqua;
+}
+
+.green
+{
+    color: green;
+}
+.red
+{
+    color: red;
+}
+.big
+{
+    font-size: 90px;
+}
+.small
+{
+    font-size: 60px;
+}
+p
+{
+    font-size: 30px;
+}
+
+
+/* here we can access class by using (.classname) and we can assign anything as many class as possible for example for h1 in html we assigned 2 classes like "green big"
+which tells that h1 has 2 classes green and big which i accessed using . here in css */
+
+
+#button
+{
+    background-color: blueviolet;
+    color: blanchedalmond;
+    font-size: 20px;
+}
+/* we can select id using #idname */
+/* id has to be distinct meaning multiple elements can not have same id name */
+
+h1,h2,.same
+{
+    background-color: bisque;
+}
+
+/* we can apply same effect / style in multiple elements using the procedure above */
+
+div p{
+    background-color: blueviolet;
+    font-style: italic;
+}
+div h3
+{
+    background-color: rgb(58, 25, 25,0.6);
+    font-style: italic;
+    font-size: 29px;
+}
+
+/* i can select a perticular element from a div or any other part like above */
+/* here the fourth part of background color, i can set opacity of any color */

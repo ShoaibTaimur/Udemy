@@ -1,0 +1,10 @@
+/* in order to access class we use .classname and for ID we use #idname */
+
+.red
+{
+     color: rgb(87, 63, 228);
+}
+#firstdiv
+{
+    background-color: aqua;
+}
