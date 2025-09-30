@@ -1,0 +1,21 @@
+a
+{
+    text-decoration: None;
+    color: rgb(12, 66, 66);
+}
+table
+{
+    border: 2px solid;
+    border-collapse: collapse;
+    text-align: center;
+}
+td
+{
+    border: 2px solid;
+    padding: 5px 10px;
+    
+}
+th
+{
+    border: 2px solid;
+}
