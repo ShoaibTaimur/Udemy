@@ -1,0 +1,13 @@
+a
+{
+    text-decoration: none;
+    color: black;
+}
+nav > ul > li{
+    display: inline;
+    margin-right: 25px;
+}
+nav
+{
+    text-align: center;
+}
