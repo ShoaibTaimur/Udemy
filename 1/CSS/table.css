@@ -19,3 +19,35 @@ th
 {
     border: 2px solid;
 }
+
+nav li .dropdown
+{
+    display: none;
+    list-style: none;
+}
+
+nav > ul
+{
+    list-style: none;
+    display: flex;
+}
+nav li.position
+{
+    margin-right: auto;
+}
+nav li
+{
+    margin-right: 20px;
+    padding: 5px 10px;
+}
+nav li:hover .dropdown
+{
+    display: block;
+    position: absolute;
+    background-color: antiquewhite;
+    padding: 5px;
+}
+nav li:hover
+{
+    background-color: aqua;
+}
