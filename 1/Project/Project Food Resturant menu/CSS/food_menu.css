@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+#hero .btn {
+  padding: 21px 32px 21px 32px;
+  border-radius: 8px;
+  background: rgba(82, 195, 3, 1);
+  color: white;
+  color: rgba(255, 255, 255, 1);
+
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+#hero .btn-container {
+  text-align: center;
+}
+#hero {
+  background: linear-gradient(
+      0deg,
+      rgba(9.197244644165039, 8.92899227142334, 8.92899227142334, 1),
+      rgba(16, 16, 16, 0) 100%
+    ),
+    url("../assets/hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  height: 919px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero .hero-content {
+  width: 1023px;
+}
+
+#hero .hero-content .subtitle {
+  opacity: 0.8;
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 10px;
+  font-family: Work Sans;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+#hero .hero-content .title {
+  width: 1000px;
+  height: 160px;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 6px;
+  margin-bottom: 20px;
+  font-family: Work Sans;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+#hero .hero-content .description {
+  width: 1023px;
+  height: 56px;
+  opacity: 0.7;
+  color: rgba(255, 255, 255, 1);
+
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+#card-box {
+  width: 1920px;
+  height: 1222px;
+  background: rgba(255, 255, 255, 1);
+}
+
+#card-box .card-content {
+  width: 1320px;
+  height: 871px;
+  margin: 167px 300px 184px 300px;
+}
+#card-box .card-content .subtitle {
+  text-align: center;
+  opacity: 0.6;
+  color: rgba(16, 16, 16, 1);
+
+  font-family: Work Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+#card-box .card-content .title {
+  text-align: center;
+
+  color: rgba(16, 16, 16, 1);
+
+  font-family: Work Sans;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+#card-box .card-content .item {
+  width: 1320px;
+  height: 522px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+#card-box .card-content .pic {
+  width: 424px;
+  height: 283px;
+  border-radius: 16px;
+}
+
+#card-box .card-content .item1 {
+  width: 424px;
+  height: 522px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#card-box .card-content .item2 {
+  width: 424px;
+  height: 522px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#card-box .card-content .item3 {
+  width: 424px;
+  height: 522px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#card-box .card-content .box {
+  width: 187px;
+  height: 56px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 14px 32px 14px 32px;
+  border-radius: 8px;
+  background: rgba(82, 195, 3, 0.15);
+  color: rgba(16, 16, 16, 1);
+
+  font-family: Work Sans;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+#card-box .card-content .discount {
+  width: 282px;
+  height: 47px;
+  color: rgba(16, 16, 16, 1);
+
+  font-family: Work Sans;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+#card-box .card-content .description {
+  opacity: 0.7;
+  color: rgba(16, 16, 16, 1);
+
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+}
