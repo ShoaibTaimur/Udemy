@@ -88,10 +88,14 @@ body {
   margin-bottom: 32px;
 }
 
+#card-box {
+  margin-top: 167px;
+  margin-bottom: 150px;
+}
+
 #card-box .card-content {
   width: 1320px;
-  height: 871px;
-  margin: 167px 300px 184px 300px;
+  margin: 0 auto;
 }
 
 #card-box .card-content .items_titles {
@@ -129,7 +133,6 @@ body {
 #card-box .card-content .items_titles .items {
   width: 1320px;
   height: 522px;
-  display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
@@ -223,8 +226,7 @@ body {
 }
 
 #add1 {
-  width: 1920px;
-  height: 671px;
+  width: 100%;
   display: flex;
   flex-direction: row;
 }
@@ -286,13 +288,12 @@ body {
   margin-bottom: 62px;
 }
 
-#add1 .add_des .logo
-{
-width: 260.23px;
-height: 40px;
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-gap: 32px;
+#add1 .add_des .logo {
+  width: 260.23px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
 }
