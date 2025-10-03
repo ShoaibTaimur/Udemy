@@ -309,7 +309,7 @@ nav li a {
 
 
 /* Responsive version*/
-/* Small devices (mobile phones: up to 600px width) */
+/* Small devices (up to 600px width) */
 @media (max-width: 600px) {
   header {
     flex-direction: column;
@@ -333,15 +333,26 @@ nav li a {
   nav ul {
     flex-direction: column;
     gap: 10px;
+    margin-top: 10px;
+  }
+
+  nav ul li {
+    margin-right: 0;
+  }
+
+  nav li a {
+    font-size: 16px;
   }
 
   .banner {
     flex-direction: column;
     margin: 0;
+    align-items: center;
+    text-align: center;
   }
 
   .banner-title {
-    font-size: 32px;
+    font-size: 28px;
     width: 90%;
     border-right: 2px solid #08d5f0;
   }
@@ -364,11 +375,12 @@ nav li a {
   }
 }
 
-/* Medium devices (tablet: 601px–1024px width) */
+/* Medium devices (601px–1024px width) */
 @media (min-width: 601px) and (max-width: 1024px) {
   header {
     flex-direction: column;
     height: auto;
+    background-position: center;
     margin-bottom: 80px;
   }
 
@@ -384,9 +396,14 @@ nav li a {
   }
 
   nav ul {
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 15px;
+  }
+
+  .banner {
+    flex-direction: column;
+    text-align: center;
   }
 
   .banner-title {
@@ -397,7 +414,6 @@ nav li a {
   .banner-description {
     font-size: 16px;
     width: 90%;
-    text-align: center;
   }
 
   .about-description {
@@ -412,7 +428,7 @@ nav li a {
   }
 }
 
-/* Large devices (desktop: 1025px–1440px width) */
+/* Large devices (1025px–1440px width) */
 @media (min-width: 1025px) and (max-width: 1440px) {
   .name {
     font-size: 40px;
@@ -460,7 +476,7 @@ nav li a {
   }
 }
 
-/* Ultra large displays (Mac TVs, large monitors above 2560px width) */
+/* Ultra large devices (2561px and above — TVs, huge monitors) */
 @media (min-width: 2561px) {
   .name {
     font-size: 60px;
