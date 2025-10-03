@@ -305,3 +305,181 @@ nav li a {
   line-height: 28px;
   letter-spacing: 0%;
 }
+
+
+
+/* Responsive version*/
+/* Small devices (mobile phones: up to 600px width) */
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    height: auto;
+    background-position: center;
+    margin-bottom: 50px;
+  }
+
+  .nav {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .name {
+    font-size: 28px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .banner {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .banner-title {
+    font-size: 32px;
+    width: 90%;
+    border-right: 2px solid #08d5f0;
+  }
+
+  .banner-description {
+    font-size: 14px;
+    width: 90%;
+    text-align: center;
+  }
+
+  .about-description {
+    width: 90%;
+    height: auto;
+    gap: 20px;
+  }
+
+  .js, .react, .node, .mongodb {
+    width: 90%;
+    height: auto;
+  }
+}
+
+/* Medium devices (tablet: 601px–1024px width) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  header {
+    flex-direction: column;
+    height: auto;
+    margin-bottom: 80px;
+  }
+
+  .nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .name {
+    font-size: 36px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  nav ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .banner-title {
+    font-size: 50px;
+    width: 90%;
+  }
+
+  .banner-description {
+    font-size: 16px;
+    width: 90%;
+    text-align: center;
+  }
+
+  .about-description {
+    width: 90%;
+    height: auto;
+    gap: 25px;
+  }
+
+  .js, .react, .node, .mongodb {
+    width: 45%;
+    height: auto;
+  }
+}
+
+/* Large devices (desktop: 1025px–1440px width) */
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .name {
+    font-size: 40px;
+    margin-left: 150px;
+  }
+
+  .banner-title {
+    font-size: 70px;
+  }
+
+  .banner-description {
+    font-size: 18px;
+  }
+
+  .about-description {
+    width: 80%;
+  }
+
+  .js, .react, .node, .mongodb {
+    width: 30%;
+  }
+}
+
+/* Extra large devices (1441px and above) */
+@media (min-width: 1441px) {
+  .name {
+    font-size: 45px;
+    margin-left: 226px;
+  }
+
+  .banner-title {
+    font-size: 85px;
+  }
+
+  .banner-description {
+    font-size: 18px;
+  }
+
+  .about-description {
+    width: 827px;
+  }
+
+  .js, .react, .node, .mongodb {
+    width: 267px;
+  }
+}
+
+/* Ultra large displays (Mac TVs, large monitors above 2560px width) */
+@media (min-width: 2561px) {
+  .name {
+    font-size: 60px;
+  }
+
+  .banner-title {
+    font-size: 110px;
+  }
+
+  .banner-description {
+    font-size: 22px;
+  }
+
+  .about-description {
+    width: 90%;
+    max-width: 1200px;
+  }
+
+  .js, .react, .node, .mongodb {
+    width: 25%;
+  }
+}
