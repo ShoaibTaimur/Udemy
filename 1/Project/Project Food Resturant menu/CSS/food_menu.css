@@ -133,6 +133,7 @@ body {
 #card-box .card-content .items_titles .items {
   width: 1320px;
   height: 522px;
+  display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
