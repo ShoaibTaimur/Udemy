@@ -206,7 +206,7 @@ nav li a {
   justify-content: center;
   align-items: center;
   gap: 30;
-  background: rgba(1, 37, 83, 1);
+  background: rgb(255, 255, 255);
   border-radius: 20px;
 }
 
@@ -217,13 +217,16 @@ nav li a {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: auto;
 }
 .wcontainer {
-  width: 1340px;
   text-align: center;
   gap: 40px;
   display: flex;
   flex-direction: column;
+  height: auto;
+  align-items: center;
+  justify-content: center;
 }
 
 .what-i-do {
@@ -252,6 +255,10 @@ nav li a {
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
+  height: auto;
+  flex: 1 1 300px;
+  justify-content: center; 
+  align-items: stretch; 
 }
 
 .js,
